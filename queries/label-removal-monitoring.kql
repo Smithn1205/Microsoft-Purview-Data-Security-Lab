@@ -1,0 +1,11 @@
+// Microsoft Purview Information Protection → Sentinel monitoring example
+// Replace the placeholder with a label ID from your own tenant.
+// Exploratory query: detects removal of one label, NOT every downgrade.
+// Requires the corresponding Sentinel connector/table and event fields.
+
+MicrosoftPurviewInformationProtection
+| where TimeGenerated >= ago(1h)
+| where LabelEventType == "LabelRemoved"
+| where OldSensitivityLabelId == "<YOUR_HIGHLY_CONFIDENTIAL_LABEL_GUID>"
+| project TimeGenerated, LabelEventType, OldSensitivityLabelId
+| order by TimeGenerated desc
