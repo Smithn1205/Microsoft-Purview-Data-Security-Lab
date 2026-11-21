@@ -56,7 +56,7 @@ The label and DLP paths are **not dependent on each other**: DLP can match a SIT
 
 **Microsoft Applied Skills — Implement information protection and data loss prevention by using Microsoft Purview** (passed 21 November 2026).
 
-The certificate image/PDF is **not yet uploaded**. A placeholder directory is available in [certificates/](certificates/) for adding it later.
+My Microsoft Applied Skills certificate is available in [certification/Credentials_MicrosoftPurview.pdf](certification/Credentials_MicrosoftPurview.pdf).
 
 ## Privacy and reproducibility
 
