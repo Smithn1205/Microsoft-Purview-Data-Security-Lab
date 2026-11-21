@@ -1,6 +1,6 @@
 # Microsoft Purview — Information Protection & Data Loss Prevention Lab
 
-Hands-on Microsoft Purview learning and an **Microsoft Applied Skills assessment** covering data discovery, sensitivity labels, automatic labeling, DLP policies, and security monitoring concepts with Microsoft Sentinel.
+Hands-on Microsoft Purview learning and a **Microsoft Applied Skills assessment** covering data discovery, sensitivity labels, automatic labeling, DLP policies, and security monitoring concepts with Microsoft Sentinel.
 
 > **Scope and honesty:** The configurations in this repository come from a temporary Microsoft-provided assessment lab completed on **21 November 2026** and related learning exercises. This is a **training portfolio**, not a production deployment or an independently operated enterprise tenant. Sentinel integration and KQL monitoring were explored in learning demonstrations; they are not represented as part of the graded Purview assessment.
 
